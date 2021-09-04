@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+body{
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Todo_card{
+    height: 65vh;
+    width: 35vw;
+    background-color: aliceblue;
+    position: fixed;
+    top:17.5%;
+    left: 32.5%;
+    padding: 2vw;
+    border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Todo_card form{
+  margin-top: 4vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Todo_card form input{
+   outline: 0;
+   box-shadow: none;
+   height: 5vh;
+   width: 24vw;
+   font-size: large;
+   text-align: center;
+   /* border: none; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Todo_card form button{
+  margin-left: 1vw;
+  box-shadow: none;
+  background-color: rgba(126, 66, 245, 1);
+  border: none;
+  height: 5vh;
+  width: 6vw;
+  outline: 0;
+  border-radius: 2px;
+}
+
+.Todo_card form button:hover{
+  background-color: rgb(81, 39, 167);
+  transition: all 0.3s;
+}
+
+.Todo_card form button ion-icon{
+  height: 4vh;
+  width: 4vw;
+  align-content: center;
+  align-self: center;
 }
