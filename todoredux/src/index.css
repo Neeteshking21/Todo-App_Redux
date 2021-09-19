@@ -1,9 +1,0 @@
-body {
-  margin: 0;
-  font-family: 'Comfortaa', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(rgba(52, 235, 235, 1), rgba(33, 155, 255, 1), rgb(33, 103, 255));
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
