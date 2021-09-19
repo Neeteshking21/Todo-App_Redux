@@ -1,19 +1,22 @@
 .Input{
     display: flex;
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     position: relative;
-    top: 20%;
+    top: 70%;
     justify-content: center;
 }
 
 .inputField{
     outline: 0;
     border: none;
+    transition: all 1s;
 }
 .inputField:focus, .button:focus{
     outline: 0;
+    transition: all 1s;
     border-bottom: 1px solid rgb(255, 52, 52);
     box-shadow: none;
 }

@@ -16,6 +16,7 @@ const Input = () => {
             done: false,
             id: Date.now()
         }))
+        setInput('')
     }
 
     return (

@@ -1,5 +1,26 @@
 .App{
     height: 100vh;
-    width: 100vw;
-    background-color: rgb(83, 208, 240);
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
 }
+
+.app_container{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.app_todoContainer{
+    display: flex;
+    flex:0.3;
+    flex-wrap: wrap;
+    margin:10px;
+    padding:20px;
+    height: fit-content;
+    width:auto;
+    background-color: transparent;
+   
+}
+
