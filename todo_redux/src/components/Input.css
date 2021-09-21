@@ -1,11 +1,10 @@
 .Input{
     display: flex;
     position: fixed;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
-    position: relative;
-    top: 70%;
+    /* position: relative; */
+    top: 92%;
+    left:9%;
     justify-content: center;
 }
 
